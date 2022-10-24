@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="cabeçalho" >Projeto individual - modulo 2 - mensagem oculta </div>
+
+    <div class="base">
+
+        <div class="opções">
+           <div class="complemento">
+             Eai, Vamos codificar e 
+             <br> decodificar textos juntos?
+            </div>
+
+            <div>
+                Escolha o codificador
+                <select name="selecione" class="select" id="selecione">
+                    <option value="cesar">Cifra de cesar</option>
+                    <option value="base">Base 64</option>
+                </select>
+
+            </div>
+
+            
+
+            <div class="chave" id="ocultarIncremento">
+                Selecione uma chave em número
+                <input type="number" name="chave" id="keybox">
+           </div>             
+        </div>
+
+        <div>
+            <textarea name="texto1" id="escrever" class="texto" cols="40" rows="30" placeholder="Digite aqui o seu texto"></textarea>
+             <!-- texto a ser codificado  -->
+        </div>
+
+        <div class="botões">
+            <div class="codbtn">
+                <input type="radio" value="codificar" name="code" id="radio-codificar">
+                <label for="">Codificar🔒</label>                
+           </div>            
+            
+            <div class="decobtn">
+                <input type="radio" value="decodificar" name="code" id="radio-decodificar">
+                <label for="">Decodificar🔑</label>
+           </div>
+
+           <button class="botão" id="botao" >decodificar</button>
+            <!-- botão codifica/descodifica -->
+
+        </div>
+
+        <div>
+            <textarea name="texto2" id="resultado" class="texto" cols="40" rows="30"></textarea>
+            <!-- texto codificado -->
+        </div>
+    <footer>
+            Jhonatan patrick 
+            <a href="https://github.com/Jhonatanpmp">Github</a>
+            <a href="https://www.linkedin.com/in/jhonatan-patrick-martins-penna-b3a5a9221/">linkedin</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

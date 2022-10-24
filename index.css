@@ -1,0 +1,116 @@
+body{
+    background: url(https://thumbs.dreamstime.com/b/estilo-do-fundo-da-matriz-wallpa-tela-v%C3%ADrus-e-hacker-de-computador-119989759.jpg); 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; 
+    font-weight: 500;
+    color: #fff; 
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -5px;
+    border-radius: 10px;
+    padding: 10px;    
+    background-color: black;
+    opacity: 90%;
+    
+}
+
+.base{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;    
+    border-radius: 10px;    
+    background-color: black;
+    opacity: 90%;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.complemento{
+    font-size: 25px;
+    
+}
+
+select{
+    
+    border-radius: 10px;
+    background-color:black;
+    border: 2px solid white;
+    color: white;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.chave{
+    display:flex ;flex-direction: column;
+    margin-right: 50px;
+    margin-left: 40px;
+  
+}
+
+.keybox{
+    border-radius: 10px;
+    background-color: black;
+    color: white;  
+    padding-bottom: 10px;  
+}
+
+.botões{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.opções{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;   
+}
+
+textarea{
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
+button{    
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;    
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 0;
+    background-color: black;
+    opacity: 90%;
+    width: 100%; 
+    padding: 10px;     
+}
+
+a{
+    color: #fff;
+}
+
+.botão:hover{    
+   background-color: grey;
+   color: black;
+}
+
+.botão{
+    font-size: 15px;
+}
+
+
